@@ -8,7 +8,7 @@ on:
   # push:
   #   paths:
   #     - '*/**'
-  defaults:
+  push:
   run:
     working-directory: example
   # Triggers the workflow on push or pull request events but only for the "main" branch
