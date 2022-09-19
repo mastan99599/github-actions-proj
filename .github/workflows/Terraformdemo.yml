@@ -4,11 +4,10 @@ name: First workflow Terraform
 
 # Controls when the workflow will run
 on:
-
- workflow_dispatch:
-  push:
-    paths:
-      - '*/**'
+#  workflow_dispatch:
+#   push:
+#     paths:
+#       - '*/**'
   # push:
   # run:
   #   working-directory: example
