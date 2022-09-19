@@ -23,9 +23,9 @@ jobs:
   terraform:
     name: 'TF GitHub Actions Demo'
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ env.TERRAFORM_WORKING_DIR }}
+    # defaults:
+    #   run:
+    #     working-directory: ${{ env.TERRAFORM_WORKING_DIR }}
        
     steps:
       - name: Checkout
